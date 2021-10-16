@@ -1,0 +1,69 @@
+.book-cover {
+    background: rgba(196, 196, 196, 0.1);
+    border: 1px solid #056CF9;
+    box-sizing: border-box;
+    border-radius: 15px;
+    padding: 20px 30px;
+    height: 100%;
+    width: 100%;
+    transition: .5s ease-in;
+}
+
+.book-content p {
+    color: white;
+}
+
+.end-date {
+    color: white;
+}
+
+.book-cover:hover {
+    color: #fff;
+}
+
+.book-title {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    text-align: center;
+    color: #056CF9;
+}
+
+.book-name {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: left;
+    color: #000000;
+}
+
+.book-content p {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 19px;
+    color: #A7A7A7;
+}
+
+.end-date {
+    margin-top: 10px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 19px;
+    color: #A7A7A7;
+}
+
+.title-section h2 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 52px;
+    color: #2A4375;
+}

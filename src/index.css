@@ -1,13 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Poppins', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
+a {
+  text-decoration: none;
+}
+
+span {
+  display: inline-block;
+  width: 5px;
+  height: 5px;
+  margin: 3px 5px 0 9px;
+  border-radius: 50%;
+  background-color: #056CF9;
+  content: "";
+  vertical-align: middle;
+  transform: translateY(-2px);
+}
+
+.bx-white {
+  color: white;
+}
+
+.container {
+  width: 80%;
+  max-width: 1980px;
+  margin: 0 auto;
+}
+
+.d-flex {
+  display: flex;
+  justify-content: left;
+  align-items: left;
+}
+
+.bg {
+  background: #056CF9;
+}
+
+.py {
+  padding: 20px 0;
+}
+
+.d-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  margin-bottom: 1rem;
+}
+
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+
+@media (max-width: 767px) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+  .d-grid {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 30px;
+    margin-bottom: 1rem;
+  }
+
+  .book-cover {
+    background: rgba(196, 196, 196, 0.1);
+    border: 1px solid #056CF9;
+    box-sizing: border-box;
+    border-radius: 15px;
+    padding: 20px 30px;
+    width: 100%;
+    transition: .2s ease-in;
+  }
+  .container {
+    width: 90%;
+    max-width: 1980px;
+    margin: 0 auto;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
