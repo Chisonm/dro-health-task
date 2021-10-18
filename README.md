@@ -7,6 +7,8 @@ https://dro-health-task.netlify.app/
   Infinite-Scroll-Component.\
   Figma.\
   Html / Css.\
+  ![image](https://user-images.githubusercontent.com/37384220/137760702-009f51ce-7b33-40d8-9385-3899cc855e85.png)
+
   
 # Getting Started with Create React App
 
