@@ -1,5 +1,4 @@
 /* eslint-disable no-dupe-args */
-import { useState, useEffect } from 'react'
 import React from 'react'
 import './search.style.css'
 
