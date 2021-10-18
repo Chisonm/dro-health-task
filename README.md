@@ -1,13 +1,13 @@
 ## Link to the project
 
-https://dro-health-task.netlify.app/
+(https://dro-health-task.netlify.app/)
 
 ## Libraries used
   Momentjs.\
   Infinite-Scroll-Component.\
   Figma.\
   Html / Css.\
-  ![image](https://user-images.githubusercontent.com/37384220/137760702-009f51ce-7b33-40d8-9385-3899cc855e85.png)
+  ![image](https://user-images.githubusercontent.com/37384220/137761058-21597783-6375-42f8-b417-2b1959292ddc.png)
 
   
 # Getting Started with Create React App
