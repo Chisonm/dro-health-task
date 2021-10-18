@@ -3,10 +3,10 @@
 https://dro-health-task.netlify.app/
 
 ## Libraries used
-  Momentjs
-  Infinite-Scroll-Component
-  Figma
-  Html / Css
+  Momentjs.\
+  Infinite-Scroll-Component.\
+  Figma.\
+  Html / Css.\
   
 # Getting Started with Create React App
 
